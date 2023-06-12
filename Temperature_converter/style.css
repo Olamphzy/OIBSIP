@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 30px;
+    height: 100vh;
+    width: 100vw;
+     background-color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#box{
+    width: 40%;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.406) 0px 22px 70px 4px;
+}
+form{
+    margin-top: 20px;
+   
+}
+#main-div{
+    color: black;
+    height: 60%;
+}
+#column{
+    display: flex;
+}
+#row{
+    font-weight: bold;
+    color: rgb(78, 75, 75);
+}
+label{
+    font-weight: bold;
+    font-size: larger;
+    margin: 1rem 3rem;
+}
+#header{
+    margin: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    height: 16vh;
+    margin-top: 20px;
+    text-shadow: 16px 22px 11px rgba(0, 0, 0, 0.199);
+}
+#container{
+    margin-top: 20px;
+}
+input, select{
+    padding: 3%;
+    margin: 1rem 3rem;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    background-color: whitesmoke;
+    /* border-top: #000000;
+    border-left: #000000;
+    border-right: #000000; */
+}
+#btnSubmit{
+    margin: 20px 30px;
+    padding: 15px 55px;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 15px;
+    width: 470px;
+    transition: ease all 0.5s;
+}
+#btnSubmit:hover{
+    background-color: rgb(125, 123, 112);
+    translate: .3s;
+    color: #000000;
+}
+#reset{
+    margin: 8px 15px;
+    padding: 5px 5px;
+    background-color: rgb(155, 100, 209);
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    margin-right: 20px;
+    border: none;
+}
+#myresult{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 31px;
+}
+#result_container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}
+
